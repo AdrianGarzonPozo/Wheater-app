@@ -107,3 +107,8 @@
 .more-inf .humidity, .more-inf .wind{
     margin-bottom: 25%;
 }
+
+.line-separator{
+    background-color: rgba(0, 0, 0, .5);
+    width: 1px;
+}
