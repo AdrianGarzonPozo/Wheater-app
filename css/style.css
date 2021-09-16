@@ -44,7 +44,7 @@
 }
 
 .cont-search input{
-    padding: 3%;
+    padding: 5%;
     border-radius: 10px;
     outline: none;
     border: 0px;
@@ -100,7 +100,7 @@
     border-radius: 10px;
 }
 
-.more-inf .humidity p, .more-inf .wind p, .more-inf .preasure p{
+.more-inf .humidity p, .more-inf .wind p, .more-inf .presure p{
     margin-bottom: 10px;
 }
 
