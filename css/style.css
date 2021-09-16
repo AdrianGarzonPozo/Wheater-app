@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../img/forest2.jpg);
+    background-position: center center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-wheater{
+    width: 25%;
+    height: 80%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 18px black;
+    padding: 2% 0;
+    text-align: center;
+    backdrop-filter: blur(5px);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-wheater > p{
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+
+.container-wheater .cont-search{
+    position: relative;
+    margin-bottom: 8%;
+}
+
+.cont-search input{
+    padding: 3%;
+    border-radius: 10px;
+    outline: none;
+    border: 0px;
+    background-color: #222831;
+    font-size: 16px;
+    color: white;
+}
+
+.cont-search i{
+    position: absolute;
+    right: 0;
+    top: 1;
+    color: white;
+
+    display: none;
+}
+
+.cont-inf .city{
+    font-size: 40px;
+}
+
+.cont-inf .date{
+    margin-bottom: 5%;
+}
+
+.cont-inf .temp{
+    font-size: 90px;
+}
+
+.cont-inf .lines{
+    font-size: 40px;
+    color: white;
+}
+
+.cont-inf .temp-inf, .cont-inf .min_max{
+    font-size: 20px;
+    color: white;
+    margin: 3%;
+}
+
+.cont-inf .min_max .line{
+    margin: 0 3%;
+}
+
+.more-inf{
+    display: flex;
+    color: white;
+    width: 70%;
+    justify-content: space-around;
+    background-color: rgba(34, 40, 49, .5);
+    padding: 5%;
+    margin-top: 3%;
+    border-radius: 10px;
+}
+
+.more-inf .humidity p, .more-inf .wind p, .more-inf .preasure p{
+    margin-bottom: 10px;
+}
+
+.more-inf .humidity, .more-inf .wind{
+    margin-bottom: 25%;
+}

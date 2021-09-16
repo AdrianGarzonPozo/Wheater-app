@@ -8,10 +8,54 @@
     <title>Weather App</title>
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
 <body>
+
+    <div class="container">
+        <div class="container-wheater">
+
+            <!-- <p>Wheater App</p> -->
+            <div class="cont-search">
+                <input type="text" placeholder="London">
+                <i class="fas fa-search"></i>
+            </div>
+
+            <div class="cont-inf">
+                <p class="city">Madrid</p>
+                <p class="date">11</p>
+                <p class="temp">15º</p>
+                <!-- <p class="lines">-------------</p> -->
+                <p class="temp-inf">Cloud</p>
+                <p class="min_max"><span class="min">12</span>º<lavel class="line">/</lavel><span
+                        class="max">22</span>º</p>
+            </div>
+
+            <div class="more-inf">
+                <div>
+                    <div class="humidity">
+                        <p>Humidity</p>
+                        <span>30%</span>
+                    </div>
+                    <div class="preasure">
+                        <p>Preasure</p>
+                        <span>840hPa</span>
+                    </div>
+                </div>
+                <div>
+                    <div class="wind">
+                        <p>Wind</p>
+                        <span>8Km/h</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
 
 </body>
 <script src="https://code.jquery.com/jquery-3.6.0.slim.js"
