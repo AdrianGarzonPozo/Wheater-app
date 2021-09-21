@@ -42,7 +42,7 @@ function wheaterCity(city) {
             $(".temp-inf").text(response.weather[0].main);
             $(".min").text(response.main.temp_min);
             $(".max").text(response.main.temp_max);
-            $(".humidity span").text(response.main.humidity+'º');
+            $(".humidity span").text(response.main.humidity+'%');
             $(".presure span").text(response.main.pressure+' hPa');
             $(".wind span").text(response.wind.speed+' Km/h');
         }).fail(function (jqXHR) {
